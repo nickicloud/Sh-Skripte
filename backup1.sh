@@ -1,0 +1,1 @@
+cd /Backups && mkdir "$(date "+%Y-%m-%d")" && cp -R /var/www/html /Backups/"$(date "+%Y-%m-%d")" && cd .. && zip -r "$(date "+%Y-%m-%d")".zip "$(date "+%Y-%m-%d")" && rm -r "$(date "+%Y-%m-%d")" && mysqldump --all-databases > "$(date "+%Y-%m-%d")".sql
