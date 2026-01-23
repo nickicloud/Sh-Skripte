@@ -1,0 +1,1 @@
+screen -dm -S ai ollama run deepseek-r1:7b

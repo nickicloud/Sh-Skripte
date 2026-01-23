@@ -1,0 +1,1 @@
+mysqldump --all-databases > "$(date "+%Y-%m-%d")".sql

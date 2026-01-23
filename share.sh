@@ -1,0 +1,1 @@
+cd /var/www/html/share/ && screen -dm -S share npm start
